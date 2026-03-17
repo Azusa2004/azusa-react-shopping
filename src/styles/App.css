@@ -1,0 +1,39 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.ant-card-body {
+    padding: 20px !important;
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+/* 确保子菜单弹出层背景色 */
+.ant-menu-dark .ant-menu-sub,
+.ant-menu-submenu-popup.ant-menu-dark .ant-menu,
+.ant-menu-dark .ant-menu-submenu-popup .ant-menu {
+    background-color: rgb(40, 44, 52) !important;
+}
+
+.ant-collapse-header {
+    padding: 0 !important;
+}
+
+.ant-collapse-expand-icon,
+.ant-collapse-extra {
+    position: relative;
+    top: 4px;
+}
+
+.ant-collapse-body {
+    padding: 0 !important;
+}
+
+:where(.css-dev-only-do-not-override-3uaqrl).ant-form-item {
+    margin-bottom: 15 !important;
+}

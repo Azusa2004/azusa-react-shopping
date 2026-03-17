@@ -1,0 +1,22 @@
+.mainLog {
+    width: 910px;
+    height: 400px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+}
+
+.mainLeft {
+    width: 510px;
+    height: 100%;
+    background-image: url(../../assets/sw.6e51dfbf.png);
+    border-radius: 10px 0 0 10px;
+}
+
+.mainRigth {
+    width: 320px;
+    height: 336px;
+    padding: 32px 40px;
+    display: flex;
+    flex-direction: column;
+}
